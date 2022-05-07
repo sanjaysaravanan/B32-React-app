@@ -1,22 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { ID } from './main';
+import MainCompoent from './NewComponent';
+import SampleComponent from './SampleComponent';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+  const x = 100;
+  const y = 200;
+
+  console.log(x + y);
+
+  return ( // JSX syntax
+    <div className="App" >
+      <header 
+        className="App-header"
+      >
+        <MainCompoent name="Sanjay" age="35" />
+        {/* <SampleComponent name="Sanjay" age="35" /> */}
       </header>
     </div>
   );
