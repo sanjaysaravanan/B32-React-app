@@ -28,7 +28,10 @@ console.log(boolVal);
       <h2>Name-2: {names[1]}</h2>
       <h2>Name-3: {names[2]}</h2>
       <h2>Name-4: {names[3]}</h2> */}
-      {/* {names.map((ele, index) => <h2 key={ele}>Name-{index}: {ele}</h2>)} */}
+      <table>
+        
+      </table>
+      {names.map((ele, index) => <h2 key={ele}>Name-{index}: {ele}</h2>)}
       <h2>
         {/* Animal Name: {boolVal ? "Fox" : "Loin"} */}
         Animal Name: 

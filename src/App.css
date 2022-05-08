@@ -26,6 +26,20 @@
   color: #61dafb;
 }
 
+.header {
+  min-height: 50px;
+  background-color: blueviolet;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+  font-size: larger;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

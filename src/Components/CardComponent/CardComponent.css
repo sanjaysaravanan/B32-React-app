@@ -1,0 +1,14 @@
+.root {
+  border-radius: 4px;
+  border: 1px solid #000;
+  margin: 8px;
+}
+
+.prod-img {
+  width: 300px;
+  height: 200px;
+}
+
+.content-section {
+  padding: 8px;
+} 
